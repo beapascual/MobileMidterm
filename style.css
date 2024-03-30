@@ -460,6 +460,9 @@ iframe{
 		width: 100vw;
 		height: 50 vh;
 	}
+	#homepage{
+		background-color: white;
+	}
 }
 
 
