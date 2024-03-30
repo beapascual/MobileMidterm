@@ -463,6 +463,11 @@ iframe{
 	#homepage{
 		background-color: white;
 	}
+	.menu{
+		width: 100vw;
+		position:fixed;
+		bottom: 0px;
+	}
 }
 
 
