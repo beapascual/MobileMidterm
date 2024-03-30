@@ -468,6 +468,9 @@ iframe{
 		position:fixed;
 		bottom: 0px;
 	}
+	.overview{
+		width: 100vw;
+	}
 }
 
 
