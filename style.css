@@ -456,9 +456,12 @@ iframe{
 /*////////////////////////media query/////////////////*/
 
 @media screen and (max-width: 640px){
+	p, a{
+		font-size: 2vh;
+	}
 	.top{
 		width: 100vw;
-		height: 50 vh;
+		height: 25 vh;
 	}
 	#homepage{
 		background-color: white;
@@ -469,12 +472,30 @@ iframe{
 		bottom: 0px;
 	}
 	.overview{
+		flex-direction: column;
 		width: 100vw;
+		align-items: center;
 	}
 	.overview img{
 		aspect-ratio: 1/1;
-		object-fit: cover;
-		width: 50 vw;
+		object-fit: contain;
+		max-width: 100%;
+		width: 100vw;
+	}
+	.con1{
+		width: 100vw;
+	}
+	.characters{
+		width: 100vw;
+		flex-direction: column;
+	}
+	.cc{
+		width: 100vw;
+		flex-direction: row;
+	}
+	.cc img{
+		max-width: 100%;
+		width: 25vh;
 	}
 }
 
