@@ -452,3 +452,21 @@ iframe{
 	border-style: solid;
 }
 
+
+/*////////////////////////media query/////////////////*/
+
+@media only screen and (max-width: 640px){
+	.top{
+		width: 100vw;
+	}
+}
+
+
+
+
+
+
+
+
+
+
