@@ -583,7 +583,7 @@ h5{
 		font-size: 20px ;
 		width: 70vw;
 	}
-	#book1 .button:hover, .continue .button:hover .homeButton{
+	#book1 .button:hover, .continue .button:hover .homeButton:hover{
 		font-size: 20px;
 	}
 	#continue .button{
