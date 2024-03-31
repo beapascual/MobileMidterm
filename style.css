@@ -150,7 +150,6 @@ li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url('waterHead.png');
 	background-size: cover;
 }
 .bookContainer{
@@ -461,7 +460,7 @@ iframe{
 
 @media screen and (max-width: 815px){
 	p, a, li{
-		font-size: 12px;
+		font-size: 18px;
 		line-height: 20px;
 	}
 	h1{
@@ -469,6 +468,7 @@ iframe{
 	color: white;
 	text-shadow: 4px 4px 20px black;
 	font-family: papyrus,fantasy;
+	text-align: center;
 }
 h2{
 	font-size: 20px;
@@ -508,7 +508,7 @@ h4{
 	.characters{
 		width: 100vw;
 		flex-direction: column;
-		padding: 10px;
+		padding: 50px;
 	}
 	.cc{
 		max-width: 100%;
@@ -519,6 +519,17 @@ h4{
 	.cc img{
 		max-width: 100%;
 		width: 25vw;
+	}
+	.fade1, .fade2, .fade3, .fade4, .overlay{
+		max-height: 100%;
+		height: 25vh;
+	}
+	.overlay h1{
+		padding: 10px;
+		line-height: 8vh;
+	}
+	.bookContainer{
+		display: none;
 	}
 }
 
