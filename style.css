@@ -489,7 +489,13 @@ h4{
 		width: 100vw;
 		position:fixed;
 		bottom: 0px;
+		justify-content: space-around;
+		gap: 6vw;
+		z-index: 1;
 	}
+/*	.menu a {
+		display: none;
+	}*/
 	.overview{
 		flex-direction: column;
 		width: 100vw;
@@ -508,7 +514,7 @@ h4{
 	.characters{
 		width: 100vw;
 		flex-direction: column;
-		padding: 50px;
+		padding: 30px;
 	}
 	.cc{
 		max-width: 100%;
